@@ -106,7 +106,7 @@ def sha256(message):
 
 # Example usage
 
-name = "Satwik"
+name = "Hardik"
 print(f"SHA-256 hash of '{name}': {sha256(name.encode())}")
 input_string = "Hello"
 hash_result = sha256(input_string.encode())

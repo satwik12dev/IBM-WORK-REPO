@@ -9,8 +9,19 @@
     function showAlert() {
         alert("This is an alert message!");
     }
+    function showConfirm() {
+        let result = confirm("Do you want to proceed?");
+        if (result) {
+            alert("You chose to proceed.");
+        } else {
+            alert("You chose to cancel.");
+        }
+    }
 </script>
 <body>
+    <h1>Sanya Khare</h1>
+    <h2>TCA2357045</h2>
     <button onclick="showAlert()">Show Alert</button>
+    <button onclick="showConfirm()">Show Confirm</button>
 </body>
 </html>
